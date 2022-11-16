@@ -5,7 +5,7 @@ class Position:
         self.z = z
 
 
-class Kecepatan:
+class Velocity:
     def __init__(self,vx,vy,vz):
         self.vx = vx
         self.vy = vy
