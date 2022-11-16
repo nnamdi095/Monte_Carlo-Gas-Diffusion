@@ -4,11 +4,11 @@ from Particle import *
 
 
 def cekTotalInside(arr_particle):
-    jum = 0
+    tot = 0
     for i,particle in enumerate(arr_particle):
         if(particle.isInside==1):
-            jum = jum + 1
-    return jum
+            tot = tot + 1
+    return tot
 
 def raise_random():
     arr_r = []
